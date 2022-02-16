@@ -1,0 +1,5 @@
+logmmse==1.5
+noisereduce==2.0.0
+numpy==1.20.3
+scipy==1.7.2
+sounddevice==0.4.3

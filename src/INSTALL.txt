@@ -1,0 +1,11 @@
+Tested on Python 3.9.5 (also some on 3.7.3 but not as thoroughly)
+
+For Teensy filtering follow lab3 tutorial for running band pass filter on Teensy. Pdf is located in the FIR_lab3 folder.
+
+To prepare the main recording and playback code, first install the requirements by running 'pip install -r requirements.txt'
+Issues may be run into regarding the Pi during install and when attempting to run. Some packages may need to be built
+from source or modified if there are any errors during installation. There is also a potential issue with ensuring the
+correct audio inputs and outputs are set on the Pi. Also ensure that no other applications are using the audio devices.
+
+(Optional) To profile the reflective surface run profile.py on a frequency sweep recording played near the surface and
+recorded with the laser.

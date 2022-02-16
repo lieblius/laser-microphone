@@ -1,0 +1,6 @@
+The files in the profiling folder are responsible for noise profiling and creating the files in the kernels folder.
+apply_profile.py utilizes the noise profiling kernels in the kernels folder and applies them to the audio. This script
+is imported into main.py along with utils.py (contains utility functions) and spectral.py (contains spectral subtraction
+and gating functions). main.py handles the recording and playback of audio as well as reading and writing from audio
+files depending on the settings. Also the FIR_lab3 files are for use on the Teensy and are applied as described in the
+installation instructions.

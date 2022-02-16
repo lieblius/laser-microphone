@@ -1,0 +1,8 @@
+After the code is uploaded on the Teensy it will run automatically when powered. Once the Raspberry Pi and Teensy are
+set up like lab3 with the photodetector circuit replacing the microphone input, main.py can be run. In the latest and
+currently submitted version of main.py, running main.py on its own will read an audio file and play it back after
+processing. The initial version and expected use of main.py involves recording from the microphone and playing audio back
+immediately after, it just requires inserting the amount of seconds to record for as a command line argument. Running
+this would look like this: 'python main.py 10' to record for 5 seconds. Keep in mind the minimum record time is 3 seconds
+and the first 3 seconds of input are expected to be purely noise. The program will exit after playback and can write to
+a wav file if a configuration variable is set.
